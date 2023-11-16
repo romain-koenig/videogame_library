@@ -15,8 +15,7 @@ const UsersPage = async () => {
 
 	return (
 		<>
-			<h1>Users</h1>
-			<p>Generated on {new Date().toLocaleDateString()} {new Date().toLocaleTimeString()}</p>
+			<h1>Users list</h1>
 			<table className='table table-zebra'>
 				<thead>
 					<tr>
